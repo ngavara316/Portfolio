@@ -5,12 +5,6 @@
 /.pnp
 .pnp.js
 
-# Unrequired modules
-/src
-/package-lock.json
-/package.json
-/README.md
-
 # testing
 /coverage
 
