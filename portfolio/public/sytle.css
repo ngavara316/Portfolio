@@ -207,10 +207,11 @@ header {
 
 .home-sci {
   position: absolute;
-  bottom: 40px;
-  width: 200px;
+  bottom: 200px;
+  width: 150px;
   display: flex;
   justify-content: space-between;
+  font-size: xx-large;
 }
 
 .home-sci::before {
@@ -231,8 +232,8 @@ header {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background: transparent;
   border: 2px solid #00abf0;
   border-radius: 50%;
@@ -268,7 +269,7 @@ header {
   position: absolute;
   top: 0;
   right: 30px;
-  width: 500px;
+  width: 350px;
   height: 100%;
   background: transparent;
   transition: 3s;
@@ -291,7 +292,7 @@ header {
   height: 6%;
   background: #081b29;
   animation: showRight 3s ease forwards;
-  animation-delay: 5.7s;
+  animation-delay: 5s;
   z-index: 100;
 }
 
